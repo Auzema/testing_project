@@ -5,6 +5,10 @@ This repository contains two RealWorld example apps:
 - `node-express-realworld-example-app`: Express/Prisma backend
 - `react-redux-realworld-example-app`: React/Redux frontend
 
+Project testing plan:
+
+- [AI-Supported Test Data Generation Plan](AI-SUPPORTED-TEST-DATA-GENERATION-PLAN.md)
+
 ## Run Locally
 
 Install dependencies once in each app:
