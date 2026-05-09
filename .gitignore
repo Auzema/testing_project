@@ -1,0 +1,18 @@
+node_modules/
+.env
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Build and cache output
+dist/
+tmp/
+build/
+coverage/
+.nx/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/extensions.json
