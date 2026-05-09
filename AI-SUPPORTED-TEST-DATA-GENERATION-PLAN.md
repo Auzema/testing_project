@@ -31,6 +31,15 @@ The project focuses on:
 
 Conduit is a RealWorld social blogging web application. It allows users to register, log in, create articles, browse articles, add comments, favorite articles, follow profiles, and update user settings.
 
+### Why Conduit was chosen as the System Under Test
+
+Conduit (RealWorld) is a widely used open-source full-stack reference application. It satisfies the course requirement of selecting an open-source system, and is well suited for an eight-week testing project for the following reasons:
+
+- It exposes a complete REST API (`/api/users`, `/api/articles`, `/api/profiles`, `/api/tags`) that is small enough to be analyzed in detail but large enough to support diverse manual and automated test cases.
+- It contains realistic input forms (registration, login, article editor, comments, settings) that benefit from AI-generated valid, invalid, and boundary test data.
+- It can be deployed locally with Node.js + SQLite without paid services or complex infrastructure.
+- It has clear server-side validation rules that make pass/fail expectations easy to define for data-driven Katalon tests.
+
 ### Main Features
 
 | Feature | Description |
@@ -174,6 +183,18 @@ The final report will use the required course test case template:
 | TC_COM_01 | Add valid comment to article | 1. Login<br>2. Open article detail page<br>3. Enter valid comment<br>4. Submit comment | Comment is added successfully | To be updated during execution | To be updated |
 | TC_SET_01 | Update profile with generated valid data | 1. Login<br>2. Open Settings page<br>3. Update bio/image/email<br>4. Save settings | Profile information is updated | To be updated during execution | To be updated |
 
+### Execution Summary (to be filled after Week 6)
+
+| Metric | Value |
+|---|---|
+| Total test cases designed | _ |
+| Total test cases executed | _ |
+| Passed | _ |
+| Failed | _ |
+| Blocked / Not executed | _ |
+| Pass rate (%) | _ |
+| Defects logged | _ |
+
 ## 8. Defect Report Plan
 
 The final report will use the required course defect template:
@@ -286,14 +307,15 @@ Convert the generated test data into a table format suitable for importing into 
 
 ## 12. Team Role Plan
 
-| Role | Responsibility |
-|---|---|
-| Test Lead | Manage test plan, schedule, scope, and final report coordination |
-| Test Analyst | Analyze Conduit requirements and identify testable features |
-| Test Designer | Design test cases and review AI-generated test data |
-| Automation Tester | Implement Katalon data-driven test cases and collect results |
+The team consists of three members. Responsibilities are distributed as follows:
 
-Note: All members should participate in review, execution, and presentation preparation.
+| Member | Role | Responsibility |
+|---|---|---|
+| [Student Name 1] | Test Lead & Test Analyst | Manage test plan, schedule, and scope; coordinate the final report; analyze Conduit requirements and identify testable features |
+| [Student Name 2] | Test Designer | Design manual test cases, review and clean AI-generated test data, prepare Katalon data files |
+| [Student Name 3] | Automation Tester | Implement Katalon data-driven test cases, run the test suite, and collect execution evidence |
+
+Note: All members participate in review, manual test execution, AI prompt verification, and presentation preparation.
 
 ## 13. Final Report Mapping
 
@@ -307,13 +329,43 @@ Note: All members should participate in review, execution, and presentation prep
 | 6. AI Usage Report | AI tool, purpose, prompts, generated data review process |
 | 7. Lessons Learned | Deployment issues, test data quality, Katalon automation experience, AI limitations |
 
-## 14. Deliverables Checklist
+## 14. Presentation Outline
+
+The final presentation follows the course requirement of 10–12 minutes plus 5 minutes Q&A. Time budget and slide mapping:
+
+| # | Slide / Topic | Duration | Owner | Content |
+|---|---|---:|---|---|
+| 1 | Title and team introduction | 0:30 | Test Lead | Project topic, SUT, team members and roles |
+| 2 | System Under Test | 1:30 | Test Lead | Conduit overview, main features, deployment summary |
+| 3 | Testing strategy | 2:00 | Test Lead | Scope, objectives, techniques, environment, schedule |
+| 4 | Test cases and test data | 2:00 | Test Designer | Sample test cases, AI-generated data tables, data quality rules |
+| 5 | Defects discovered | 1:30 | Test Designer | Severity breakdown and 2–3 representative defects |
+| 6 | Automation demo | 2:30 | Automation Tester | Live Katalon data-driven run, pass/fail summary, screenshots |
+| 7 | AI usage report | 1:30 | Test Lead | AI tool, real prompts used, verification process, lessons |
+| 8 | Lessons learned and Q&A handover | 0:30 | All | Key takeaways and transition to Q&A |
+
+Total: ~12 minutes presentation + 5 minutes Q&A.
+
+## 15. Lessons Learned (to be filled after Week 8)
+
+This section will be completed at the end of the project. Planned topics to reflect on:
+
+- Deployment of the Conduit frontend and backend on Windows (Node version, OpenSSL legacy provider, port configuration).
+- Quality of AI-generated test data: usefulness, duplication, unrealistic values, and the impact of human review.
+- Effectiveness of Katalon data-driven testing: ease of binding data files, handling of dynamic elements, and stability of test runs.
+- Comparison of defects found through manual exploratory testing versus data-driven automation.
+- Limitations of AI in testing (lack of real domain context, hallucinated values, need for human verification) and how the team mitigated them.
+- Teamwork lessons: coordination across the three roles, code/data review process, and time management over the 8-week schedule.
+
+## 16. Deliverables Checklist
 
 - [ ] Final testing report in English
 - [ ] Test plan
 - [ ] Test case table
+- [ ] Execution summary table
 - [ ] Defect report table
 - [ ] AI-generated test data files
+- [ ] AI prompt and verification log
 - [ ] Katalon automation project or scripts
 - [ ] Katalon execution logs and screenshots
 - [ ] Presentation slides
