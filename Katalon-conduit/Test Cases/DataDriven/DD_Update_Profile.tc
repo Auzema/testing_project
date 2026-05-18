@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven profile update test using AI-generated CSV data (TD_Profile.csv). Tests valid, invalid, boundary, and edge-case profile settings.</description>
+   <name>DD_Update_Profile</name>
+   <tag>data-driven,ai-data,profile</tag>
+   <comment></comment>
+   <testCaseGuid>dd000001-aaaa-4bbb-cccc-000000000105</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Test case identifier from CSV</description>
+      <id>var_caseId</id>
+      <masked>false</masked>
+      <name>caseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Username to update</description>
+      <id>var_username</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Bio text</description>
+      <id>var_bio</id>
+      <masked>false</masked>
+      <name>bio</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Profile image URL</description>
+      <id>var_imageUrl</id>
+      <masked>false</masked>
+      <name>imageUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Email to update</description>
+      <id>var_email</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Data type category</description>
+      <id>var_dataType</id>
+      <masked>false</masked>
+      <name>dataType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Expected result: success, error, or verify</description>
+      <id>var_expectedResult</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Notes about this test data row</description>
+      <id>var_notes</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify article creation rejects empty body.</description>
+   <name>TC11_Create_Article_Empty_Body</name>
+   <tag>article,negative</tag>
+   <comment></comment>
+   <testCaseGuid>fa49a136-dd62-4f75-8a1d-8a4e9b178c11</testCaseGuid>
+</TestCaseEntity>
+

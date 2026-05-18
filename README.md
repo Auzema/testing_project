@@ -1,13 +1,15 @@
 # Testing Project
 
-This repository contains two RealWorld example apps:
+This repository contains the RealWorld example apps and Katalon automation project:
 
 - `node-express-realworld-example-app`: Express/Prisma backend
 - `react-redux-realworld-example-app`: React/Redux frontend
+- `Katalon-conduit`: Katalon Studio test automation project with web regression and data-driven tests
 
-Project testing plan:
+Project documents:
 
 - [AI-Supported Test Data Generation Plan](AI-SUPPORTED-TEST-DATA-GENERATION-PLAN.md)
+- [Run App and Katalon Guide](RUN_APP_AND_KATALON_GUIDE.md)
 
 ## Run Locally
 

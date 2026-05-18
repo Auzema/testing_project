@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify article creation rejects empty title.</description>
+   <name>TC10_Create_Article_Empty_Title</name>
+   <tag>article,negative</tag>
+   <comment></comment>
+   <testCaseGuid>89f97204-6f23-423d-8ea3-948221095d10</testCaseGuid>
+</TestCaseEntity>
+

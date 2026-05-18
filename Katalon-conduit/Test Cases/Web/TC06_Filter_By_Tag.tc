@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create an article with a unique tag and verify tag filtering.</description>
+   <name>TC06_Filter_By_Tag</name>
+   <tag>tag,regression</tag>
+   <comment></comment>
+   <testCaseGuid>f2af08bb-9a8f-4b65-ac7c-2f5b1bc2b1fa</testCaseGuid>
+</TestCaseEntity>
+

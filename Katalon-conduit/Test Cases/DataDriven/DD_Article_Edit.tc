@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven article edit test. Creates article then edits with AI-generated data from TD_Article.csv.</description>
+   <name>DD_Article_Edit</name>
+   <tag>data-driven,ai-data,article,edit</tag>
+   <comment></comment>
+   <testCaseGuid>dd000001-aaaa-4bbb-cccc-000000000108</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Test case identifier</description>
+      <id>var_caseId</id>
+      <masked>false</masked>
+      <name>caseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Article title</description>
+      <id>var_title</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Article description</description>
+      <id>var_description</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Article body</description>
+      <id>var_body</id>
+      <masked>false</masked>
+      <name>body</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Article tags</description>
+      <id>var_tags</id>
+      <masked>false</masked>
+      <name>tags</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Data type category</description>
+      <id>var_dataType</id>
+      <masked>false</masked>
+      <name>dataType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Expected result</description>
+      <id>var_expectedResult</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Notes</description>
+      <id>var_notes</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

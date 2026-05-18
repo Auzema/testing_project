@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify a logged-in user can favorite and unfavorite an article.</description>
+   <name>TC13_Favorite_Unfavorite_Article</name>
+   <tag>article,favorite,regression</tag>
+   <comment></comment>
+   <testCaseGuid>1f7e20b7-ff90-4a59-951b-d594ab779c13</testCaseGuid>
+</TestCaseEntity>
+

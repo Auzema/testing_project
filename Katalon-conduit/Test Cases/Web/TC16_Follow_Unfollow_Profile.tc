@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify a user can follow and unfollow another profile.</description>
+   <name>TC16_Follow_Unfollow_Profile</name>
+   <tag>profile,follow,regression</tag>
+   <comment></comment>
+   <testCaseGuid>aa403003-2a4e-4f18-8b45-f3d566544216</testCaseGuid>
+</TestCaseEntity>
+

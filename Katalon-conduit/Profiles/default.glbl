@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Default local execution profile.</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Frontend base URL.</description>
+      <initValue>'http://localhost:4100/'</initValue>
+      <name>FRONTEND_URL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default wait timeout in seconds.</description>
+      <initValue>8</initValue>
+      <name>DEFAULT_TIMEOUT</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password used for generated test accounts.</description>
+      <initValue>'Password123!'</initValue>
+      <name>TEST_PASSWORD</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Delay in seconds after important UI actions, useful for demo runs.</description>
+      <initValue>0</initValue>
+      <name>STEP_DELAY_SECONDS</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

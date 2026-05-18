@@ -1,0 +1,9 @@
+caseId,commentBody,dataType,expectedResult,notes
+COM_VALID_001,This is a normal AI-generated comment.,valid,success,Normal comment
+COM_VALID_LONG_001,This is a longer comment generated to validate that the comment form can accept paragraph-like content from a user during article discussion.,boundary,success,Long comment
+COM_EMPTY_001,,invalid,error,Empty comment
+COM_SPECIAL_CHARS_001,Comment with symbols !@#$%^&*() and punctuation.,edge,success,Special characters
+COM_MARKDOWN_001,**bold** _italic_ comment text,edge,success,Markdown-like content
+COM_HTML_001,<b>HTML-like comment</b>,edge,verify,Check whether HTML-like text is rendered safely
+COM_SCRIPT_001,<script>alert(1)</script>,edge,verify,Script-like text should not execute
+COM_SPACES_001,   ,invalid,error,Spaces-only comment should be rejected after trim

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven logout and session protection test. Verifies protected routes are blocked after logout.</description>
+   <name>DD_Logout_Session</name>
+   <tag>data-driven,ai-data,logout,session</tag>
+   <comment></comment>
+   <testCaseGuid>dd000001-aaaa-4bbb-cccc-000000000106</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Test case identifier</description>
+      <id>var_caseId</id>
+      <masked>false</masked>
+      <name>caseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Protected route to test after logout</description>
+      <id>var_protectedRoute</id>
+      <masked>false</masked>
+      <name>protectedRoute</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Data type category</description>
+      <id>var_dataType</id>
+      <masked>false</masked>
+      <name>dataType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Expected result</description>
+      <id>var_expectedResult</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Notes</description>
+      <id>var_notes</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

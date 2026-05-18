@@ -1,0 +1,9 @@
+caseId,username,bio,imageUrl,email,dataType,expectedResult,notes
+PROFILE_VALID_001,updated_ai_user_001,QA student using AI-generated test data,https://api.realworld.io/images/demo-avatar.png,updated_ai_user_001@example.com,valid,success,Normal profile update
+PROFILE_EMPTY_BIO_001,updated_ai_user_002,,https://api.realworld.io/images/demo-avatar.png,updated_ai_user_002@example.com,boundary,success,Blank bio should be allowed
+PROFILE_LONG_BIO_001,updated_ai_user_003,This is a long profile bio generated for boundary value testing of the user settings page in Conduit.,https://api.realworld.io/images/demo-avatar.png,updated_ai_user_003@example.com,boundary,success,Long bio
+PROFILE_INVALID_IMAGE_001,updated_ai_user_004,Testing invalid image URL,not-a-valid-url,updated_ai_user_004@example.com,invalid,verify,Check whether system validates image URL
+PROFILE_INVALID_EMAIL_001,updated_ai_user_005,Testing invalid email,https://api.realworld.io/images/demo-avatar.png,invalid-email,invalid,error,Invalid email format
+PROFILE_SPECIAL_BIO_001,updated_ai_user_006,Bio with symbols !@#$%^&*(),https://api.realworld.io/images/demo-avatar.png,updated_ai_user_006@example.com,edge,success,Special-character bio
+PROFILE_SCRIPT_BIO_001,updated_ai_user_007,<script>alert(1)</script>,https://api.realworld.io/images/demo-avatar.png,updated_ai_user_007@example.com,edge,verify,Script-like bio should not execute
+PROFILE_EMPTY_USERNAME_001,,Testing empty username update,https://api.realworld.io/images/demo-avatar.png,updated_ai_user_008@example.com,invalid,error,Username should not be blank

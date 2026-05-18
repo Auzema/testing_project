@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data-driven edge-case and security-like input test. Tests XSS-like inputs, script injection, and unusual values across all modules.</description>
+   <name>DD_Edge_Security</name>
+   <tag>data-driven,ai-data,edge,security</tag>
+   <comment></comment>
+   <testCaseGuid>dd000001-aaaa-4bbb-cccc-000000000110</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Test case identifier</description>
+      <id>var_caseId</id>
+      <masked>false</masked>
+      <name>caseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Module: register, article, comment, profile</description>
+      <id>var_module</id>
+      <masked>false</masked>
+      <name>module</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Field being tested</description>
+      <id>var_field</id>
+      <masked>false</masked>
+      <name>field</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Edge/security test value</description>
+      <id>var_value</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Data type category</description>
+      <id>var_dataType</id>
+      <masked>false</masked>
+      <name>dataType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Expected result</description>
+      <id>var_expectedResult</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Notes</description>
+      <id>var_notes</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

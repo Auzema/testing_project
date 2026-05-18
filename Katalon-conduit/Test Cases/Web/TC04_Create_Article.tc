@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register a user, create an article, and verify article detail.</description>
+   <name>TC04_Create_Article</name>
+   <tag>article,regression</tag>
+   <comment></comment>
+   <testCaseGuid>de6df6c7-3f7f-4ba8-9f7b-6dd46b419d1e</testCaseGuid>
+</TestCaseEntity>
+

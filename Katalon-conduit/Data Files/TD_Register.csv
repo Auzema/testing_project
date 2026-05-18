@@ -1,0 +1,16 @@
+caseId,username,email,password,dataType,expectedResult,notes
+REG_VALID_001,ai_user_001,ai_user_001@example.com,Password123!,valid,success,Normal valid registration data
+REG_VALID_002,student_tester_02,student_tester_02@example.com,Testing@123,valid,success,Realistic username and strong password
+REG_INVALID_EMAIL_001,ai_user_invalid_email,invalid-email,Password123!,invalid,error,Email format is invalid
+REG_EMPTY_USERNAME_001,,empty_username@example.com,Password123!,invalid,error,Username is blank
+REG_EMPTY_EMAIL_001,empty_email_user,,Password123!,invalid,error,Email is blank
+REG_EMPTY_PASSWORD_001,empty_password_user,empty_password_user@example.com,,invalid,error,Password is blank
+REG_BOUNDARY_USERNAME_001,a,a_boundary@example.com,Password123!,boundary,success,Minimum non-empty username
+REG_SPECIAL_USERNAME_001,user_special_01,user.special+01@example.com,Password123!,edge,success,Email includes plus alias
+REG_DUPLICATE_EMAIL_001,duplicate_user_a,duplicate@example.com,Password123!,duplicate,success,Create baseline duplicate email
+REG_DUPLICATE_EMAIL_002,duplicate_user_b,duplicate@example.com,Password123!,duplicate,error,Expected duplicate email rejection
+REG_DUPLICATE_USERNAME_001,duplicate_username,duplicate_username_a@example.com,Password123!,duplicate,success,Create baseline duplicate username
+REG_DUPLICATE_USERNAME_002,duplicate_username,duplicate_username_b@example.com,Password123!,duplicate,error,Expected duplicate username rejection
+REG_LONG_USERNAME_001,ai_user_with_a_very_long_username_for_boundary_testing_001,long_username@example.com,Password123!,boundary,verify,Check username length behavior
+REG_WEAK_PASSWORD_001,weak_password_user,weak_password_user@example.com,123,edge,verify,System currently may accept weak passwords
+REG_SPACE_TRIM_001,  trim_user  ,  trim_user@example.com  ,  Password123!  ,edge,verify,Check trimming behavior

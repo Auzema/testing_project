@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register a user, create an article, add a comment, and verify it appears.</description>
+   <name>TC05_Add_Comment</name>
+   <tag>comment,regression</tag>
+   <comment></comment>
+   <testCaseGuid>a7d82a6f-e00f-445f-9a27-a1a93a4f8103</testCaseGuid>
+</TestCaseEntity>
+

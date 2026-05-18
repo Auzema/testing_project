@@ -1,0 +1,12 @@
+caseId,title,description,body,tags,dataType,expectedResult,notes
+ART_VALID_001,AI Generated Testing Article,Article generated from AI-supported data,This is a normal article body for testing.,ai testing,valid,success,Normal article
+ART_VALID_MARKDOWN_001,Markdown Article,Article with markdown body,"# Heading\n\nThis body contains markdown.",markdown ai,valid,success,Markdown body
+ART_EMPTY_TITLE_001,,Article without title,Body is present.,emptytitle,invalid,error,Title is blank
+ART_EMPTY_DESCRIPTION_001,Article Without Description,,Body is present.,emptydescription,invalid,error,Description is blank
+ART_EMPTY_BODY_001,Article Without Body,Description is present,,emptybody,invalid,error,Body is blank
+ART_LONG_TITLE_001,This is a very long article title generated to test boundary value handling in the Conduit editor form,Boundary title test,Body is present.,boundary boundary,boundary,success,Long title boundary
+ART_SPECIAL_CHARS_001,Special Characters !@#$%,Special character title test,Body with symbols !@#$%^&*().,special chars,edge,success,Special characters
+ART_HTML_BODY_001,HTML Body Article,Article with HTML-like body,<h1>Injected Heading</h1> body text,htmltest,edge,verify,Check safe rendering of HTML-like input
+ART_SCRIPT_BODY_001,Script Body Article,Article with script-like body,<script>alert(1)</script> body text,scripttest,edge,verify,Script-like text should not execute
+ART_NUMERIC_TITLE_001,1234567890,Numeric title test,Body is present.,numeric,edge,success,Numeric-only title
+ART_SPACES_TITLE_001,   ,Spaces-only title test,Body is present.,spacetitle,invalid,error,Spaces-only title should be rejected after trim

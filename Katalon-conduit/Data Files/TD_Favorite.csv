@@ -1,0 +1,6 @@
+caseId,action,dataType,expectedResult,notes
+FAV_001,favorite,valid,count_increase,Favorite an article should increase count
+FAV_002,unfavorite,valid,count_decrease,Unfavorite should decrease count back
+FAV_003,favorite_twice,edge,no_double_count,Clicking favorite twice should not double count
+FAV_004,favorite_own_article,valid,count_increase,User can favorite their own article
+FAV_005,unfavorite_own_article,valid,count_decrease,User can unfavorite their own article

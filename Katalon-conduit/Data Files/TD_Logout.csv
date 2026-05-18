@@ -1,0 +1,6 @@
+caseId,protectedRoute,dataType,expectedResult,notes
+LOGOUT_001,/editor,valid,blocked,After logout user cannot access article editor
+LOGOUT_002,/settings,valid,blocked,After logout user cannot access settings page
+LOGOUT_003,/,valid,allowed,Homepage is accessible after logout
+LOGOUT_004,/#/editor,valid,blocked,Hash route to editor should be blocked after logout
+LOGOUT_005,/#/settings,valid,blocked,Hash route to settings should be blocked after logout

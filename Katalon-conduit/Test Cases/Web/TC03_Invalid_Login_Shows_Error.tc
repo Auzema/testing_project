@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify invalid login displays authentication error.</description>
+   <name>TC03_Invalid_Login_Shows_Error</name>
+   <tag>auth,negative</tag>
+   <comment></comment>
+   <testCaseGuid>01d28ae2-8a7d-48df-b20b-ffeb4a3a8273</testCaseGuid>
+</TestCaseEntity>
+

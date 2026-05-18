@@ -1,0 +1,10 @@
+caseId,email,password,dataType,expectedResult,notes
+LOGIN_VALID_001,ai_user_001@example.com,Password123!,valid,success,Requires REG_VALID_001 account to exist
+LOGIN_WRONG_PASSWORD_001,ai_user_001@example.com,wrong-password,invalid,error,Existing email with wrong password
+LOGIN_UNKNOWN_EMAIL_001,unknown_user@example.com,Password123!,invalid,error,Email does not exist
+LOGIN_EMPTY_EMAIL_001,,Password123!,invalid,error,Email is blank
+LOGIN_EMPTY_PASSWORD_001,ai_user_001@example.com,,invalid,error,Password is blank
+LOGIN_INVALID_EMAIL_FORMAT_001,not-an-email,Password123!,invalid,error,Invalid email format
+LOGIN_CASE_VARIATION_001,AI_USER_001@EXAMPLE.COM,Password123!,edge,verify,Check whether email login is case-sensitive
+LOGIN_SPACE_EMAIL_001, ai_user_001@example.com ,Password123!,edge,verify,Backend trims email before login
+LOGIN_SPACE_PASSWORD_001,ai_user_001@example.com, Password123! ,edge,verify,Backend trims password before login

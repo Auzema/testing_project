@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify empty comment is not added to an article.</description>
+   <name>TC12_Add_Empty_Comment</name>
+   <tag>comment,negative</tag>
+   <comment></comment>
+   <testCaseGuid>e3c19249-5c15-44c1-b54b-44b8352e0012</testCaseGuid>
+</TestCaseEntity>
+

@@ -1,0 +1,11 @@
+caseId,module,field,value,dataType,expectedResult,notes
+EDGE_AUTH_001,register,email,user+alias@example.com,edge,success,Plus alias email
+EDGE_AUTH_002,register,email,user.name.with.dots@example.com,edge,success,Dotted email
+EDGE_AUTH_003,register,email,user@example,invalid,error,Incomplete email domain
+EDGE_ARTICLE_001,article,title,<script>alert(1)</script>,edge,verify,Script-like title should not execute
+EDGE_ARTICLE_002,article,body,<img src=x onerror=alert(1)>,edge,verify,Image event handler should not execute
+EDGE_COMMENT_001,comment,body,<script>alert(1)</script>,edge,verify,Script-like comment should not execute
+EDGE_PROFILE_001,profile,imageUrl,javascript:alert(1),edge,verify,Invalid image URL should not execute
+EDGE_TAG_001,article,tag,qa-tag-123,edge,success,Hyphenated tag
+EDGE_TAG_002,article,tag,qa_tag_123,edge,success,Underscore tag
+EDGE_TAG_003,article,tag,tag with spaces,edge,verify,Check tag display with spaces

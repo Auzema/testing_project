@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register a unique user and verify authenticated navigation.</description>
+   <name>TC02_Register_New_User</name>
+   <tag>auth,regression</tag>
+   <comment></comment>
+   <testCaseGuid>db55d9bb-862b-4ec0-a3f6-1ab32db65102</testCaseGuid>
+</TestCaseEntity>
+

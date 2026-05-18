@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify login rejects blank email and blank password.</description>
+   <name>TC09_Login_Blank_Fields</name>
+   <tag>auth,negative</tag>
+   <comment></comment>
+   <testCaseGuid>da1c6d2a-f52f-4c31-a76a-6f84cc0a1209</testCaseGuid>
+</TestCaseEntity>
+

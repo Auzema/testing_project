@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify registration rejects blank email.</description>
+   <name>TC07_Register_Blank_Email</name>
+   <tag>auth,negative</tag>
+   <comment></comment>
+   <testCaseGuid>c2a1d7f7-6210-4b71-8438-3a5e77e30c07</testCaseGuid>
+</TestCaseEntity>
+
